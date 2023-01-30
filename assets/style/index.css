@@ -9,9 +9,12 @@ header{
     border-bottom: none;
     text-align: center;
 }
-
+@font-face {
+  font-family: Titre;
+  src: url(../font/DancingScript-VariableFont_wght.ttf);
+}
 #logo{
-    width: 160px;
+    width: 150px;
 }
 .menu {
    position: fixed;
@@ -23,7 +26,7 @@ header{
   
   #hamburger-logo {
     cursor: pointer;
-    background-color: #A29992;;
+    background-color: #A29992;
     width: 250px;
     display: block;
     color: rgb(59, 48, 48);
@@ -74,17 +77,19 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 348px;
     width: 100%;
     text-align: center;
 }
 h1{
     margin: 0;
     color: rgb(252, 247, 247);
-    font-size: 35px;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     line-height: 320px;
     text-shadow:1px 3px 3px black;
+    font-family: "Titre";
+    font-size: 45px;
+    margin-left: 74px;
 }
 #accueil p{
     color: rgb(252, 247, 247);
@@ -92,18 +97,19 @@ h1{
     padding: 0;
     letter-spacing: 1px;
     text-shadow:1px 3px 3px black;
+    margin-left: 60px;
 }
 #footer{
   border: 1px solid rgb(221, 210, 196);
   box-sizing: border-box;
   font-size: 12px;
   text-align: center;
-  background-color: #9F9A9C;
+  background-color: #A29992;
   color: rgb(59, 48, 48);
 }
 
 footer p{
-  margin: 3px;
+  margin: 2px;
 }
 #pint{
   width: 20px;
@@ -113,6 +119,9 @@ footer p{
 }
 #cp{
   font-style: italic;
+}
+.logo-reseau:hover{
+ opacity: 0.5;
 }
 @media screen and (min-width : 500px){
   #footer{
@@ -127,7 +136,7 @@ footer p{
 }
 @media screen and (min-width : 800px){
   #footer{
-    font-size: 13px;
+    font-size: 15px;
     background-color: #A29992;;
   }
   footer p{
@@ -191,10 +200,11 @@ footer p{
 h1{
   margin: 0;
   color: rgb(252, 247, 247);
-  font-size: 35px;
+  font-size: 45px;
   letter-spacing: -3px;
   line-height: 440px;
   text-shadow:1px 3px 3px black;
+  margin-left: 90px;
 }
 #accueil p{
   color: rgb(252, 247, 247);
@@ -202,8 +212,7 @@ h1{
   padding: 0;
   letter-spacing: 1px;
   text-shadow:1px 3px 3px black;
+  margin-left: 100px;
 }
-h1, #accueil p{
-  margin-left: 50px;
-}
+
 }
