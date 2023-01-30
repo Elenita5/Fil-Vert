@@ -1,0 +1,124 @@
+html, body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+    background-color: #f3f3f3;
+}
+header{
+    background-color: white;
+    border: 1px solid rgb(204, 201, 201);
+    border-bottom: none;
+    text-align: center;
+}
+
+#logo{
+    width: 160px;
+}
+.menu {
+   position: fixed;
+    right:0px;
+  }
+  #hamburger {
+    display: none;
+  }
+  
+  #hamburger-logo {
+    cursor: pointer;
+    background: rgb(142, 139, 136);
+    width: 250px;
+    display: block;
+    color: white;
+    text-align: left;
+    transform: translateX(185px);
+    padding: 10px;
+  }
+  #container-menu{
+    height: 41px;
+    border: 1px solid rgb(221, 210, 196);
+    border-left: none;
+    width: 100%;
+  }
+  nav {
+    background: rgb(142, 139, 136);
+    overflow: hidden;
+    width: 270px;
+    transform: translateX(280px);
+  }
+  
+  #hamburger-logo,
+  nav {
+    transition: 0.7s;
+  }
+  #hamburger:checked ~ #hamburger-logo,
+  #hamburger:checked ~ nav {
+    transform: translate(0);
+  }
+  
+  nav a {
+    color: rgb(50, 47, 47);
+    text-decoration: none;
+    padding: 10px;
+  }
+ul, li{
+    list-style: none;
+    padding: 0;
+    width: 50px;
+    letter-spacing: -2px;
+    line-height: 35px;
+    
+}
+#accueil{
+    background-image: url(../images/Bases-de-la-decoration-interieur-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    color: rgb(252, 247, 247);
+    font-size: 35px;
+    letter-spacing: -3px;
+    line-height: 320px;
+    text-shadow:1px 3px 3px black;
+}
+#accueil p{
+    color: rgb(252, 247, 247);
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    text-shadow:1px 3px 3px black;
+}
+#footer{
+  border: 1px solid rgb(221, 210, 196);
+  box-sizing: border-box;
+  font-size: 12px;
+  text-align: center;
+  background-color: #9F9A9C;
+  color: rgb(59, 48, 48);
+}
+
+footer p{
+  margin: 3px;
+}
+#pint{
+  width: 20px;
+}
+#insta{
+  width: 30px;
+}
+#cp{
+  font-style: italic;
+}
+@media screen and (min-width : 500px){
+  #footer{
+    font-size: 14px;
+  }
+  footer p{
+    margin: 13px
+  }
+  #logo{
+    width: 200px;
+  }
+}
