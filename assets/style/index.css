@@ -74,7 +74,7 @@ footer p{
 #hamburger:checked ~ nav {
   transform: translate(0);
 }
-#ul, #lia{
+#ul, #li-menu-1{
   list-style: none;
   padding: 0;
   width: 50px;
@@ -115,7 +115,7 @@ footer p{
 #insta{
   width: 30px;
 }
-#cp{
+#copyright{
   font-style: italic;
 }
 @media screen and (min-width : 500px){
@@ -178,16 +178,16 @@ footer p{
     display:block;
     width: 100%;
   }
-  #ul #lia{
+  #ul #li-menu-1{
     display: none;
   }
-  #li a{
+  #liste-menu-2 a{
     text-decoration: none;
     display: block;
     padding: 15px;
     color: rgb(59, 48, 48);
   }
-  #li a:hover{
+  #liste-menu-2 a:hover{
     color: white;
     font-weight: bold;
     background-color: #A29992;
