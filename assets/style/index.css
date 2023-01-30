@@ -23,10 +23,10 @@ header{
   
   #hamburger-logo {
     cursor: pointer;
-    background: rgb(142, 139, 136);
+    background-color: #9F9A9C;
     width: 250px;
     display: block;
-    color: white;
+    color: rgb(59, 48, 48);
     text-align: left;
     transform: translateX(185px);
     padding: 10px;
@@ -38,7 +38,7 @@ header{
     width: 100%;
   }
   nav {
-    background: rgb(142, 139, 136);
+    background-color: #9F9A9C;
     overflow: hidden;
     width: 270px;
     transform: translateX(280px);
@@ -58,13 +58,16 @@ header{
     text-decoration: none;
     padding: 10px;
   }
-ul, li{
+#ul, #lia{
     list-style: none;
     padding: 0;
     width: 50px;
     letter-spacing: -2px;
     line-height: 35px;
     
+}
+#container-menu-2{
+  display: none;
 }
 #accueil{
     background-image: url(../images/Bases-de-la-decoration-interieur-2.jpg);
@@ -113,12 +116,81 @@ footer p{
 }
 @media screen and (min-width : 500px){
   #footer{
-    font-size: 14px;
+    font-size: 13px;
   }
   footer p{
     margin: 13px
   }
   #logo{
-    width: 200px;
+    width: 206px;
   }
+}
+@media screen and (min-width : 800px){
+  #footer{
+    font-size: 13px;
+  }
+  footer p{
+    margin: 13px
+  }
+  #logo{
+    width: 202px;
+  }
+  .menu{
+    display: none;
+  }
+  #container-menu{
+    display: none;
+  }
+  nav{
+    display: none;
+  }
+  #container-menu-2 {
+    display:block;
+    width: 100%;
+    border: 1px solid rgb(210, 204, 204);
+  }
+  #ul #lia{
+    display: none;
+  }
+  ul {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    margin: 0;
+  }
+  li{
+    list-style: none;
+    
+  }
+  #li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+  }
+  #accueil{
+    background-image: url(../images/Bases-de-la-decoration-interieur-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 480px;
+    width: 100%;
+}
+h1{
+  margin: 0;
+  color: rgb(252, 247, 247);
+  font-size: 35px;
+  letter-spacing: -3px;
+  line-height: 420px;
+  text-shadow:1px 3px 3px black;
+}
+#accueil p{
+  color: rgb(252, 247, 247);
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  text-shadow:1px 3px 3px black;
+}
+h1, #accueil p{
+  margin-left: 50px;
+}
 }
