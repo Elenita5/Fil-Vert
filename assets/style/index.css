@@ -147,26 +147,37 @@ footer p{
   #container-menu-2 {
     display:block;
     width: 100%;
-    border: 1px solid rgb(210, 204, 204);
+   
   }
   #ul #lia{
     display: none;
   }
   ul {
     display: flex;
-    padding: 5px;
+    padding: 0;
     justify-content: space-between;
     margin: 0;
+    
   }
   li{
     list-style: none;
-    
+    border: 1px solid black;
+    border-right: none;
+    width: 450px;
+  }
+  li:last-child{
+    border-right: 1px solid black;
   }
   #li a{
     text-decoration: none;
     display: block;
-    padding: 12px;
+    padding: 15px;
+    color: rgb(59, 48, 48);
   }
+ #li a:hover{
+  color: rgb(117, 110, 110);
+  background-color: rgb(168, 158, 158);
+ }
   #accueil{
     background-image: url(../images/Bases-de-la-decoration-interieur-2.jpg);
     background-position: center;
