@@ -1,103 +1,105 @@
 html, body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0%;
-    background-color: #f3f3f3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0%;
+  background-color: #f3f3f3;
 }
 header{
-    background-color: white;
-    border: 1px solid rgb(204, 201, 201);
-    border-bottom: none;
-    text-align: center;
+  background-color: white;
+  border: 1px solid rgb(204, 201, 201);
+  border-bottom: none;
+  text-align: center;
+}
+nav {
+  background-color: #A29992;;
+  overflow: hidden;
+  width: 270px;
+  transform: translateX(280px);
+}
+nav a {
+  color: rgb(50, 47, 47);
+  text-decoration: none;
+  padding: 10px;
+}
+h1{
+  margin: 0;
+  color: rgb(252, 247, 247);
+  letter-spacing: -2px;
+  line-height: 320px;
+  text-shadow:1px 3px 3px black;
+  font-family: "Titre";
+  font-size: 45px;
+  margin-left: 74px;
+}
+footer p{
+  margin: 2px;
 }
 @font-face {
   font-family: Titre;
   src: url(../font/DancingScript-VariableFont_wght.ttf);
 }
+.menu {
+  position: fixed;
+  right:0px;
+}
+.logo-reseau:hover{
+  opacity: 0.5;
+ }
 #logo{
     width: 150px;
 }
-.menu {
-   position: fixed;
-    right:0px;
-  }
-  #hamburger {
-    display: none;
-  }
-  
-  #hamburger-logo {
-    cursor: pointer;
-    background-color: #A29992;
-    width: 250px;
-    display: block;
-    color: rgb(59, 48, 48);
-    text-align: left;
-    transform: translateX(185px);
-    padding: 10px;
-  }
-  #container-menu{
-    height: 41px;
-    border: 1px solid rgb(221, 210, 196);
-    border-left: none;
-    width: 100%;
-  }
-  nav {
-    background-color: #A29992;;
-    overflow: hidden;
-    width: 270px;
-    transform: translateX(280px);
-  }
-  
-  #hamburger-logo,
+#hamburger {
+  display: none;
+}
+#hamburger-logo {
+  cursor: pointer;
+  background-color: #A29992;
+  width: 250px;
+  display: block;
+  color: rgb(59, 48, 48);
+  text-align: left;
+  transform: translateX(185px);
+  padding: 10px;
+}
+#container-menu{
+  height: 41px;
+  border: 1px solid rgb(221, 210, 196);
+  border-left: none;
+  width: 100%;
+}
+#hamburger-logo,
   nav {
     transition: 0.7s;
-  }
-  #hamburger:checked ~ #hamburger-logo,
-  #hamburger:checked ~ nav {
-    transform: translate(0);
-  }
-  
-  nav a {
-    color: rgb(50, 47, 47);
-    text-decoration: none;
-    padding: 10px;
-  }
+}
+#hamburger:checked ~ #hamburger-logo,
+#hamburger:checked ~ nav {
+  transform: translate(0);
+}
 #ul, #lia{
-    list-style: none;
-    padding: 0;
-    width: 50px;
-    letter-spacing: -2px;
-    line-height: 35px;
-    
+  list-style: none;
+  padding: 0;
+  width: 50px;
+  letter-spacing: -2px;
+  line-height: 35px;
 }
 #container-menu-2{
   display: none;
 }
 #accueil{
-    background-image: url(../images/Bases-de-la-decoration-interieur-2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 348px;
-    width: 100%;
-    text-align: center;
-}
-h1{
-    margin: 0;
-    color: rgb(252, 247, 247);
-    letter-spacing: -2px;
-    line-height: 320px;
-    text-shadow:1px 3px 3px black;
-    font-family: "Titre";
-    font-size: 45px;
-    margin-left: 74px;
+  background-image: url(../images/Bases-de-la-decoration-interieur-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 348px;
+  width: 100%;
+  text-align: center;
 }
 #accueil p{
-    color: rgb(252, 247, 247);
-    margin: 0;
-    padding: 0;
-    letter-spacing: 1px;
-    text-shadow:1px 3px 3px black;
-    margin-left: 60px;
+  color: rgb(252, 247, 247);
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  text-shadow:1px 3px 3px black;
+  margin-left: 60px;
 }
 #footer{
   border: 1px solid rgb(221, 210, 196);
@@ -106,10 +108,6 @@ h1{
   text-align: center;
   background-color: #A29992;
   color: rgb(59, 48, 48);
-}
-
-footer p{
-  margin: 2px;
 }
 #pint{
   width: 20px;
@@ -120,46 +118,31 @@ footer p{
 #cp{
   font-style: italic;
 }
-.logo-reseau:hover{
- opacity: 0.5;
-}
 @media screen and (min-width : 500px){
-  #footer{
-    font-size: 13px;
-  }
   footer p{
     margin: 13px
+  }
+  #footer{
+    font-size: 13px;
   }
   #logo{
     width: 206px;
   }
 }
 @media screen and (min-width : 800px){
-  #footer{
-    font-size: 15px;
-    background-color: #A29992;;
+  h1{
+    margin: 0;
+    color: rgb(252, 247, 247);
+    font-size: 45px;
+    letter-spacing: -3px;
+    line-height: 440px;
+    text-shadow:1px 3px 3px black;
+    margin-left: 90px;
   }
   footer p{
     margin: 13px
   }
-  #logo{
-    width: 202px;
-  }
-  .menu{
-    display: none;
-  }
-  #container-menu{
-    display: none;
-  }
   nav{
-    display: none;
-  }
-  #container-menu-2 {
-    display:block;
-    width: 100%;
-   
-  }
-  #ul #lia{
     display: none;
   }
   ul {
@@ -167,7 +150,6 @@ footer p{
     padding: 0;
     justify-content: space-between;
     margin: 0;
-    
   }
   li{
     list-style: none;
@@ -178,17 +160,38 @@ footer p{
   li:last-child{
     border: 1px solid rgb(221, 210, 196);
   }
+  .menu{
+    display: none;
+  }
+  #footer{
+    font-size: 15px;
+    background-color: #A29992;;
+  }
+  #logo{
+    width: 202px;
+  }
+  #container-menu{
+    display: none;
+  }
+
+  #container-menu-2 {
+    display:block;
+    width: 100%;
+  }
+  #ul #lia{
+    display: none;
+  }
   #li a{
     text-decoration: none;
     display: block;
     padding: 15px;
     color: rgb(59, 48, 48);
   }
- #li a:hover{
-  color: white;
-  font-weight: bold;
-  background-color: #A29992;
- }
+  #li a:hover{
+    color: white;
+    font-weight: bold;
+    background-color: #A29992;
+  }
   #accueil{
     background-image: url(../images/Bases-de-la-decoration-interieur-2.jpg);
     background-position: center;
@@ -196,23 +199,13 @@ footer p{
     background-size: contain;
     height: 480px;
     width: 100%;
-}
-h1{
-  margin: 0;
-  color: rgb(252, 247, 247);
-  font-size: 45px;
-  letter-spacing: -3px;
-  line-height: 440px;
-  text-shadow:1px 3px 3px black;
-  margin-left: 90px;
-}
-#accueil p{
-  color: rgb(252, 247, 247);
-  margin: 0;
-  padding: 0;
-  letter-spacing: 1px;
-  text-shadow:1px 3px 3px black;
-  margin-left: 100px;
-}
-
+  }
+  #accueil p{
+    color: rgb(252, 247, 247);
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    text-shadow:1px 3px 3px black;
+    margin-left: 100px;
+  }
 }
