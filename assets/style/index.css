@@ -12,13 +12,13 @@ header{
 nav {
   background-color: #A29992;;
   overflow: hidden;
-  width: 270px;
-  transform: translateX(280px);
+  width: 100%;
+  transform: translateY(-280px);
 }
 nav a {
   color: rgb(50, 47, 47);
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
 }
 h1{
   margin: 0;
@@ -41,8 +41,10 @@ footer p{
   opacity: 0.5;
 }
 #menu {
-  position: fixed;
+  position: absolute;
   right:0px;
+  top: 0px;
+  width: 100%;
 }
 #logo{
     width: 150px;
@@ -53,16 +55,17 @@ footer p{
 #hamburger-logo {
   cursor: pointer;
   background-color: #A29992;
-  width: 250px;
+  width: 465px;
   display: block;
   color: rgb(59, 48, 48);
   text-align: left;
-  transform: translateX(185px);
   padding: 10px;
 }
 #container-menu{
-  height: 41px;
-  border: 1px solid rgb(221, 210, 196);
+  background-color: #A29992;
+  position: fixed;
+  top: 0px;
+  height: 42px;
   border-left: none;
   width: 100%;
 }
@@ -141,7 +144,7 @@ footer p{
 #copyright{
   font-style: italic;
 }
-@media screen and (min-width : 500px){
+@media (min-width : 500px){
   footer p{
     margin: 13px
   }
@@ -163,7 +166,8 @@ footer p{
     margin-left: 90px;
   }
   footer p{
-    margin: 13px
+    margin: 13px;
+    color:red;
   }
   nav{
     display: none;
