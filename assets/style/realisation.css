@@ -46,12 +46,12 @@ footer p{
     transform: translateX(185px);
     padding: 10px;
 }
-  #container-menu{
-    height: 41px;
-    border: 1px solid rgb(221, 210, 196);
-    border-left: none;
-    width: 100%;
-  }
+#container-menu{
+  height: 41px;
+  border: 1px solid rgb(221, 210, 196);
+  border-left: none;
+  width: 100%;
+}
 #hamburger-logo, nav {
       transition: 0.7s;
 }
@@ -69,85 +69,85 @@ footer p{
     display: none;
 }
 #footer{
-    border: 1px solid rgb(221, 210, 196);
-    box-sizing: border-box;
-    font-size: 12px;
-    text-align: center;
-    background-color: #A29992;
-    color: rgb(59, 48, 48);
+  border: 1px solid rgb(221, 210, 196);
+  box-sizing: border-box;
+  font-size: 12px;
+  text-align: center;
+  background-color: #A29992;
+  color: rgb(59, 48, 48);
 }
 #pint{
-    width: 20px;
+  width: 20px;
 }
 #insta{
-    width: 30px;
+  width: 30px;
 }
 #copyright{
-    font-style: italic;
+  font-style: italic;
 }
 @media screen and (min-width : 500px){
-    footer p{
-      margin: 13px
-    }
-    #footer{
-      font-size: 13px;
-    }
-    #logo{
-      width: 206px;
-    }
+  footer p{
+    margin: 13px
+  }
+  #footer{
+    font-size: 13px;
+  }
+  #logo{
+    width: 206px;
+  }
 }
 @media screen and (min-width : 800px){
-    footer p{
-      margin: 13px
-    }
-    nav{
-      display: none;
-    }
-    ul {
-      display: flex;
-      padding: 0;
-      justify-content: space-between;
-      margin: 0;
-    }
-    li{
-      list-style: none;
-      border: 1px solid rgb(221, 210, 196);
-      border-right: none;
-      width: 450px;
-    }
-    li:last-child{
-      border: 1px solid rgb(221, 210, 196);
-    }
-    .menu{
-      display: none;
-    }
-    #footer{
-      font-size: 15px;
-      background-color: #A29992;;
-    }
-    #logo{
-      width: 202px;
-    }
-    #container-menu{
-      display: none;
-    }
-  
-    #container-menu-2 {
-      display:block;
-      width: 100%;
-    }
-    #ul #li-menu-1{
-      display: none;
-    }
-    #liste-menu-2 a{
-      text-decoration: none;
-      display: block;
-      padding: 15px;
-      color: rgb(59, 48, 48);
-    }
-    #liste-menu-2 a:hover{
-      color: white;
-      font-weight: bold;
-      background-color: #A29992;
-    }
+  footer p{
+    margin: 13px
+  }
+  nav{
+    display: none;
+  }
+  ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin: 0;
+  }
+  li{
+    list-style: none;
+    border: 1px solid rgb(221, 210, 196);
+    border-right: none;
+    width: 450px;
+  }
+  li:last-child{
+    border: 1px solid rgb(221, 210, 196);
+  }
+  .menu{
+    display: none;
+  }
+  #footer{
+    font-size: 15px;
+    background-color: #A29992;;
+  }
+  #logo{
+    width: 202px;
+  }
+  #container-menu{
+    display: none;
+  }
+
+  #container-menu-2 {
+    display:block;
+    width: 100%;
+  }
+  #ul #li-menu-1{
+    display: none;
+  }
+  #liste-menu-2 a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: rgb(59, 48, 48);
+  }
+  #liste-menu-2 a:hover{
+    color: white;
+    font-weight: bold;
+    background-color: #A29992;
+  }
 }
