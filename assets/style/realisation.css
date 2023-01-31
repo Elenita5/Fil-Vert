@@ -58,7 +58,7 @@ footer p{
 #hamburger:checked ~ #hamburger-logo, #hamburger:checked ~ nav {
     transform: translate(0);
 }
-#ul, #li-menu-1{
+#ul, .li-menu-1{
     list-style: none;
     padding: 0;
     width: 50px;
@@ -136,7 +136,7 @@ footer p{
     display:block;
     width: 100%;
   }
-  #ul #li-menu-1{
+  #ul .li-menu-1{
     display: none;
   }
   #liste-menu-2 a{
