@@ -112,13 +112,23 @@ footer p{
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.6;
+  opacity: 0.7;
   width: 100%;
   height: 250px;
   border: 1px solid black;
 }
+#banniere p{
+  font-family: "Titre";
+  color: rgb(19, 2, 2);
+  font-weight: bolder;
+  font-size: 35px;
+  margin: auto;
+  width: 40%;
+  margin-top: 4%;
+  text-shadow:1px 3px 3px rgb(231, 227, 227);
+}
 #container{
-  width: 55%;
+  width: 49%;
   margin: auto;
   text-align: justify;
 }
