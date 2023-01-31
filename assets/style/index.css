@@ -8,13 +8,15 @@ header{
   border: 1px solid rgb(204, 201, 201);
   border-bottom: none;
   text-align: center;
-  height: 240px;
 }
 nav {
   background-color: #A29992;;
   overflow: hidden;
   width: 100%;
   transform: translateY(-280px);
+}
+header #logo{
+  width: 220px;
 }
 nav a {
   color: rgb(50, 47, 47);
@@ -41,16 +43,12 @@ footer p{
 .logo-reseau:hover{
   opacity: 0.5;
 }
-#logo{
-  margin-top: 5%;
-}
 #menu {
   position: absolute;
   right:0px;
   top: 0px;
   width: 100%;
 }
-
 #hamburger {
   display: none;
 }
@@ -117,20 +115,19 @@ footer p{
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.7;
   width: 100%;
-  height: 120px;
+  height: 100px;
   border: 1px solid black;
 }
 #banniere p{
   font-family: "Titre";
   color: rgb(19, 2, 2);
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 21px;
   margin: auto;
-  width: 80%;
-  margin-top: 3%;
-  text-shadow:1px 3px 3px rgb(231, 227, 227);
+  margin-top:4%;
+  width: 90%;
+  text-shadow:1px 3px 3px rgb(252, 249, 249);
 }
 #container{
   width: 95%;
@@ -146,7 +143,7 @@ footer p{
 #copyright{
   font-style: italic;
 }
-@media (min-width : 500px){
+@media screen and (min-width:500px){
   footer p{
     margin: 13px
   }
@@ -166,6 +163,9 @@ footer p{
     line-height: 440px;
     text-shadow:1px 3px 3px black;
     margin-left: 90px;
+  }
+  header{
+    height: 275px;
   }
   footer p{
     margin: 13px;
@@ -196,9 +196,7 @@ footer p{
     font-size: 15px;
     background-color: #A29992;;
   }
-  #logo{
-    width: 202px;
-  }
+ 
   #container-menu{
     display: none;
   }
@@ -236,5 +234,18 @@ footer p{
     letter-spacing: 1px;
     text-shadow:1px 3px 3px black;
     margin-left: 80px;
+  }
+  #container{
+    width: 58%;
+  }
+  #banniere{
+    height: 250px;
+    opacity: 0.7;
+  }
+  #banniere p{
+    width: 50%;
+    font-size: 32px;
+    text-shadow:1px 3px 3px rgb(255, 255, 255);
+    margin-top: 7%;
   }
 }
