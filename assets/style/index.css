@@ -169,7 +169,6 @@ footer p{
   }
   footer p{
     margin: 13px;
-    color:red;
   }
   nav{
     display: none;
@@ -239,13 +238,13 @@ footer p{
     width: 58%;
   }
   #banniere{
-    height: 250px;
+    height: 220px;
     opacity: 0.7;
   }
   #banniere p{
     width: 50%;
     font-size: 32px;
     text-shadow:1px 3px 3px rgb(255, 255, 255);
-    margin-top: 7%;
+    margin-top: 5%;
   }
 }
