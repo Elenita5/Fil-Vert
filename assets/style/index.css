@@ -8,6 +8,7 @@ header{
   border: 1px solid rgb(204, 201, 201);
   border-bottom: none;
   text-align: center;
+  height: 240px;
 }
 nav {
   background-color: #A29992;;
@@ -40,15 +41,16 @@ footer p{
 .logo-reseau:hover{
   opacity: 0.5;
 }
+#logo{
+  margin-top: 5%;
+}
 #menu {
   position: absolute;
   right:0px;
   top: 0px;
   width: 100%;
 }
-#logo{
-    width: 150px;
-}
+
 #hamburger {
   display: none;
 }
@@ -117,21 +119,21 @@ footer p{
   background-repeat: no-repeat;
   opacity: 0.7;
   width: 100%;
-  height: 250px;
+  height: 120px;
   border: 1px solid black;
 }
 #banniere p{
   font-family: "Titre";
   color: rgb(19, 2, 2);
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 24px;
   margin: auto;
-  width: 40%;
-  margin-top: 4%;
+  width: 80%;
+  margin-top: 3%;
   text-shadow:1px 3px 3px rgb(231, 227, 227);
 }
 #container{
-  width: 49%;
+  width: 95%;
   margin: auto;
   text-align: justify;
 }
