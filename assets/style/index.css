@@ -66,12 +66,10 @@ footer p{
   border-left: none;
   width: 100%;
 }
-#hamburger-logo,
-  nav {
+#hamburger-logo, nav {
     transition: 0.7s;
 }
-#hamburger:checked ~ #hamburger-logo,
-#hamburger:checked ~ nav {
+#hamburger:checked ~ #hamburger-logo, #hamburger:checked ~ nav {
   transform: translate(0);
 }
 #ul, .li-menu-1{
