@@ -107,6 +107,21 @@ footer p{
   background-color: #A29992;
   color: rgb(59, 48, 48);
 }
+#banniere{
+  background-image: url(../images/ban4.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  width: 100%;
+  height: 250px;
+  border: 1px solid black;
+}
+#container{
+  width: 55%;
+  margin: auto;
+  text-align: justify;
+}
 #pint{
   width: 20px;
 }
