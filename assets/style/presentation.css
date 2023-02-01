@@ -109,6 +109,34 @@ html, body{
     background-size: cover;
     height: 348px;
   }
+  #equipe{
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+  }
+  #banniere{
+    background-image: url(../images/buffetdeco.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    opacity: 0.6;
+   
+    
+  }
+  #phrase{
+    text-shadow:4px 6px 4px rgb(242, 238, 238);
+    font-size: 27px;
+    font-family: "Titre";
+    color: rgb(23, 22, 22);
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
   @media screen and (min-width:500px){
     footer p{
       margin: 13px
