@@ -33,6 +33,10 @@ h1{
   font-size: 45px;
   margin-left: 74px;
 }
+h2{
+  color: rgb(109, 99, 78);
+}
+
 footer p{
   margin: 2px;
 }
@@ -42,6 +46,14 @@ footer p{
 }
 .logo-reseau:hover{
   opacity: 0.5;
+}
+.container{
+  width: 95%;
+  margin: auto;
+  text-align: justify;
+}
+.center{
+  text-align: center;
 }
 #menu {
   position: absolute;
@@ -129,11 +141,6 @@ footer p{
   width: 90%;
   text-shadow:1px 3px 3px rgb(252, 249, 249);
 }
-.container{
-  width: 95%;
-  margin: auto;
-  text-align: justify;
-}
 #pint{
   width: 20px;
 }
@@ -215,6 +222,9 @@ footer p{
   .menu{
     display: none;
   }
+  .container{
+    width: 90%;
+  }
   #footer{
     font-size: 15px;
     background-color: #A29992;;
@@ -256,9 +266,6 @@ footer p{
     letter-spacing: 1px;
     text-shadow:1px 3px 3px black;
     margin-left: 75px;
-  }
-  .container{
-    width: 90%;
   }
   #banniere{
     height: 220px;
