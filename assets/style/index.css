@@ -129,7 +129,7 @@ footer p{
   width: 90%;
   text-shadow:1px 3px 3px rgb(252, 249, 249);
 }
-#container{
+.container{
   width: 95%;
   margin: auto;
   text-align: justify;
@@ -142,6 +142,30 @@ footer p{
 }
 #copyright{
   font-style: italic;
+}
+#banniere-2{
+  width: 100%;
+  border: 1px solid rgb(223, 219, 219);
+  background-color: rgb(148, 143, 143);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  height: 150px;
+  text-shadow:1px 3px 3px black;
+}
+#contact{
+  border: 1px solid white;
+  width: 160px;
+  padding: 8px;
+  border-radius: 5px;
+}
+#contact, a {
+  text-decoration: none;
+  color: white;
+}
+#contact:hover{
+  background-color: rgb(177, 174, 174);
 }
 @media screen and (min-width:500px){
   footer p{
@@ -195,7 +219,6 @@ footer p{
     font-size: 15px;
     background-color: #A29992;;
   }
- 
   #container-menu{
     display: none;
   }
@@ -232,10 +255,10 @@ footer p{
     padding: 0;
     letter-spacing: 1px;
     text-shadow:1px 3px 3px black;
-    margin-left: 80px;
+    margin-left: 75px;
   }
-  #container{
-    width: 58%;
+  .container{
+    width: 90%;
   }
   #banniere{
     height: 220px;
@@ -246,5 +269,13 @@ footer p{
     font-size: 32px;
     text-shadow:1px 3px 3px rgb(255, 255, 255);
     margin-top: 5%;
+  }
+}
+@media (min-width:1000px) and (max-width:2000px){
+  .container{
+    width: 50%;
+  }
+  #banniere{
+    opacity: 0.6;
   }
 }
