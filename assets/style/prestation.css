@@ -108,7 +108,14 @@ html, body{
     background-position: center;
     background-size: cover;
   }
-  
+  .presta{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+  .presta img{
+    width: 380px;
+  }
   @media screen and (min-width:500px){
     footer p{
       margin: 13px
