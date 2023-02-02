@@ -350,16 +350,18 @@ html, body{
   .text {
     width: 150px;
     margin: 0;
+    
   }
   .text p{
     margin: 0;
     text-align: justify;
     font-size: 12px;
   }
-  #pinceau{
-    padding: 13px;
+  #flex-2 img{
+    width: 100px;
   }
  h5 {
   margin: 0;
  }
   }
+  /* icone8 pour image */
