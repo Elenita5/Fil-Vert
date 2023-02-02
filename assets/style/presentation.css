@@ -160,7 +160,7 @@ html, body{
 #carre{
   width: 140px;
 }
-#container-valeur{
+#flex-2{
   border: 1px solid white;
   width: 100%;
   box-sizing: border-box;
@@ -228,6 +228,9 @@ html, body{
     #logo{
       width: 206px;
     }
+    #flex, #img-cacher{
+     width: 100%;
+    }
   }
   @media screen and (min-width : 800px){
     h1{
@@ -268,7 +271,7 @@ html, body{
     }
     #footer{
       font-size: 15px;
-      background-color: #A29992;;
+      background-color: #A29992;
     }
     #container-menu{
       display: none;
@@ -298,7 +301,7 @@ html, body{
      }
 
   }
-  @media (min-width:1000px) and (max-width:2000px){
+  @media (min-width:900px) and (max-width:2000px){
    #entete{
     background-size: contain;
     background-repeat: no-repeat;
@@ -337,7 +340,26 @@ html, body{
     display: 
     none;
   }
+  #flex-2{
+    display: flex;
+    justify-content: space-around;
+  }
   #img-cacher-2{
     display: block;
   }
+  .text {
+    width: 150px;
+    margin: 0;
+  }
+  .text p{
+    margin: 0;
+    text-align: justify;
+    font-size: 12px;
+  }
+  #pinceau{
+    padding: 13px;
+  }
+ h5 {
+  margin: 0;
+ }
   }
