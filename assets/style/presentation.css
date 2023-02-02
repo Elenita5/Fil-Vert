@@ -36,13 +36,16 @@ html, body{
   }
   h4{
     font-family: "Titre";
-    font-size: 25px;
+    font-size: 30px;
   }
   footer p{
     margin: 2px;
   }
   img{
     width: 482px;
+  }
+  h5{
+    font-size: 14px;
   }
   @font-face {
     font-family: Titre;
@@ -128,9 +131,7 @@ html, body{
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-    opacity: 0.6;
-   
-    
+    opacity: 0.7;
   }
   #phrase{
     text-shadow:4px 6px 4px rgb(242, 238, 238);
@@ -151,9 +152,70 @@ html, body{
   color: white;
   text-align: center;
 }
+#container-sf p{
+  font-size: 13px;
+}
+
 #plan{
   width: 100px;
 }
+#vase{
+  width: 120px;
+}
+#carre{
+  width: 140px;
+}
+#container-valeur{
+  border: 1px solid white;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(223, 223, 218);
+  text-align: center;
+  color: rgb(85, 72, 72);
+}
+#oreille{
+  width: 110px;
+}
+#pinceau{
+  width: 80px;
+}
+#main{
+  width: 140px;
+}
+#trophe{
+  width: 110px;
+}
+.valeur{
+  font-weight: bold;
+  font-size: 18px;
+}
+#banniere-2{
+  width: 100%;
+  border: 1px solid rgb(223, 219, 219);
+  background-color: rgb(148, 143, 143);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  height: 150px;
+  text-shadow:1px 3px 3px black;
+  box-sizing: border-box;
+}
+#contact{
+  border: 1px solid white;
+  width: 160px;
+  padding: 8px;
+  border-radius: 5px;
+}
+#contact, a {
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+}
+#contact:hover{
+  background-color: rgb(177, 174, 174);
+}
+
   @media screen and (min-width:500px){
     footer p{
       margin: 13px

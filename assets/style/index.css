@@ -160,12 +160,14 @@ footer p{
   color: white;
   height: 150px;
   text-shadow:1px 3px 3px black;
+  box-sizing: border-box;
 }
 #contact{
   border: 1px solid white;
   width: 160px;
   padding: 8px;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 #contact, a {
   text-decoration: none;
