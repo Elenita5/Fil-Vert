@@ -104,57 +104,30 @@ html, body{
   #copyright{
     font-style: italic;
   }
-  #entete{
-    background-image: url(../images/baignoire.jpg);
-    background-position: center;
-    background-size: cover;
-  }
-  #intro{
-    width: 90%;
-    text-align: justify;
-    margin: auto;
-  }
-  .presta{
-    margin: auto;
-    text-align: center;
-    width: 90%;
-}
-.presta h3{
-  text-align: center;
-}
-  .presta img{
-    width: 380px;
-    height: 250px;
-  }
-  .justify{
-    text-align: justify;
-  }
-  #banniere-2{
+  #contacter{
     width: 100%;
-    border: 1px solid rgb(223, 219, 219);
-    background-color: rgb(148, 143, 143);
+    border: 1px solid rgb(216, 211, 211);
+    box-sizing: border-box;
+    background-color: rgb(50, 47, 47);
+    color: white;
+}
+#vase{
+    width: 480px;
+}
+.coordonnee{
+    margin-bottom: 5px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    color: white;
-    height: 150px;
-    text-shadow:1px 3px 3px black;
-    box-sizing: border-box;
-  }
-  #contact{
-    border: 1px solid white;
-    width: 160px;
-    padding: 8px;
-    border-radius: 5px;
-  }
-  #contact, a {
-    text-decoration: none;
-    color: white;
-    box-sizing: border-box;
-  }
-  #contact:hover{
-    background-color: rgb(177, 174, 174);
-  }
+}
+.icone{
+    width: 25px;
+    margin-left: 15px;
+}
+.info{
+    margin-left: 25px;
+}
+
+
   @media screen and (min-width:500px){
     footer p{
       margin: 13px
@@ -164,13 +137,6 @@ html, body{
     }
     #logo{
       width: 206px;
-    }
-    #entete{
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-    #intro, .presta{
-      width: 80%;
     }
   }
   @media screen and (min-width : 800px){
@@ -236,35 +202,7 @@ html, body{
       font-weight: bold;
       background-color: #A29992;
     }
-     #entete, h1{
-      line-height: 315px;
-      margin-left: 5px;
-      }
-      #intro, .presta{
-        width: 70%;
-      }
   }
   @media (min-width:900px) and (max-width:2000px){
-    #entete, h1{
-      margin-left: 5px;
-      }
-    #intro{
-      width: 50%;
-    }
-    #container-presta{
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-    .presta{
-      width: 250px;
-      padding: 85px;
-    }
-    .presta img{
-      width: 250px;
-      height: 250px;
-    }
-  }
 
-  /* min a partir de quand je commence a lutiliser 
-  ctrl + d selection dans dautre element  */
+  }
