@@ -122,18 +122,19 @@ html, body{
     display: block;
     width: 280px;
     height: 40px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 10px 0 10px 10px;
     border: 1px solid rgb(150, 148, 148);
     border-radius: 5px;
+  }
+  .label{
+    margin-left: 10px;
   }
   textarea{
     height: 90px;
   }
- 
+
  h2{
   text-align: center;
-  width: 250px;
  }
  h1{
   color: white;
@@ -148,6 +149,7 @@ html, body{
     color: white;
     font-weight: bold;
     border-color: #f3f0f0;
+    margin-left: 10px;
   }
   button:active{
     background-color: rgb(198, 195, 195);
@@ -161,6 +163,7 @@ html, body{
     border-radius: 5px;
     background-color: #A29992;
     color: white;
+    text-align: center;
   }
   span{
     color: black;
@@ -181,6 +184,10 @@ html, body{
     }
     h1{
       font-size: 32px;
+    }
+    h2{
+      text-align: center;
+      width: 100%;
     }
     form input, textarea{
       width: 450px;
@@ -271,27 +278,30 @@ html, body{
       width: 100%;
     }
     form{
-      width: 40%;
+      width: 45%;
       margin: auto;
       margin-bottom: 50px;
       background-color: rgb(245, 242, 242);
       border-radius: 5px;
     }
     form input, textarea{
-      width: 400px;
-      margin: 25px 0 25px 25px;
+      width: 300px;
+      margin: 10px 0 10px 10px;
     }
     .label{
-      margin-left: 25px;
-    }
-    button{
-      margin: 5px 0 15px 260px;
-    }
-    #slogan{
-      text-align: center;
+      margin-left: 10px;
     }
     }
   
   @media (min-width:900px) and (max-width:2000px){
+    form{
+      width: 40%;
+      margin: auto;
+      margin-bottom: 50px;
+      border-radius: 5px;
+    }
+    form input, textarea{
+      width: 80%;
+    }
 
   }
