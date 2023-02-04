@@ -94,7 +94,8 @@ html, body{
     font-style: italic;
   }
   #vase{
-    width: 390px;
+    width: 100%;
+    box-sizing: border-box;
   }
   .container-info{
     background-color: rgb(37, 35, 35);
@@ -102,8 +103,6 @@ html, body{
     width: 100%;
     box-sizing: border-box;
     border: 1px solid rgb(193, 186, 186);
-  }
-  #flex{
   }
   .container-info p{
     color: white;
@@ -113,8 +112,58 @@ html, body{
     float: left;
     width: 30px;
   }
-  h1{
-    text-align: center;
+  form{
+    width: 100%;
+    border: 1px solid rgb(220, 215, 215);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  form input, textarea{
+    display: block;
+    width: 280px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(150, 148, 148);
+    border-radius: 5px;
+  }
+  textarea{
+    height: 90px;
+  }
+ 
+ h2{
+  text-align: center;
+  width: 250px;
+ }
+ h1{
+  color: white;
+  font-family: "Titre";
+  font-size: 25px;
+ }
+  button{
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: rgb(132, 130, 130);
+    color: white;
+    font-weight: bold;
+    border-color: #f3f0f0;
+  }
+  button:active{
+    background-color: rgb(198, 195, 195);
+    color: black;
+  }
+  #slogan{
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #A29992;
+    color: white;
+  }
+  span{
+    color: black;
   }
   @media screen and (min-width:500px){
     footer p{
@@ -125,6 +174,25 @@ html, body{
     }
     #logo{
       width: 206px;
+    }
+    .container-info{
+     height: 320px;
+     font-size: 18px;
+    }
+    h1{
+      font-size: 32px;
+    }
+    form input, textarea{
+      width: 450px;
+      font-size: 16px;
+    }
+    button:hover{
+      background-color: rgb(186, 181, 181);
+      color: rgb(42, 40, 40);
+    }
+    button:active{
+      background-color: black;
+      color: white;
     }
   }
   @media screen and (min-width : 800px){
@@ -180,7 +248,50 @@ html, body{
       font-weight: bold;
       background-color: #A29992;
     }
-  }
+    #flex{
+      display: flex;
+    }
+    #vase{
+      height: 550px;
+      width: 60%;
+    }
+    .container-info{
+      border: none;
+      height: 550px;
+      width: 60%;
+    }
+    h1{
+      font-size: 50px;
+    }
+    .container-info p{
+      margin-bottom: 65px;
+    }
+    h2{
+      text-align: center;
+      width: 100%;
+    }
+    form{
+      width: 40%;
+      margin: auto;
+      margin-bottom: 50px;
+      background-color: rgb(245, 242, 242);
+      border-radius: 5px;
+    }
+    form input, textarea{
+      width: 400px;
+      margin: 25px 0 25px 25px;
+    }
+    .label{
+      margin-left: 25px;
+    }
+    button{
+      margin: 5px 0 15px 260px;
+    }
+    #slogan{
+      text-align: center;
+    }
+    }
+  
   @media (min-width:900px) and (max-width:2000px){
 
   }
