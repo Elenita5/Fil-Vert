@@ -4,65 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Realisation</title>
+    <title>Réalisation</title>
     <link rel="stylesheet" href="../assets/style/realisation.css">
     <link rel="icon" href="../assets/images/logorefait.png"/>
 </head>
 <body>
     <header>
-       <img id="logo" src="../assets/images/logo2.PNG">
-       <section id="container-menu">
-            <div id="menu">
-                <input type="checkbox" id="hamburger">
-                <label id="hamburger-logo" for="hamburger"> MENU ☰ </label>
-                <nav>
-                    <ul id="ul">
-                        <li class="li-menu-1"><a href="../index.html">ACCUEIL</a></li>
-                        <li class="li-menu-1"><a href="#">PRESENTATION</a></li>
-                        <li class="li-menu-1"><a href="#">PRESTATIONS</a></li>
-                        <li class="li-menu-1"><a href="./pages/realisation.html " target="_blank" title="lien realisation">REALISATIONS</a></li>
-                        <li class="li-menu-1"><a href="#">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <img id="logo" src="../assets/images/logorefait.png">
+        <section id="container-menu">
+             <div id="menu">
+                 <input type="checkbox" id="hamburger">
+                 <label id="hamburger-logo" for="hamburger"> MENU ☰ </label>
+                 <nav>
+                     <ul id="ul">
+                         <li class="li-menu-1"><a href="../index.html">ACCUEIL</a></li>
+                         <li class="li-menu-1"><a href="./presentation.html">PRESENTATION</a></li>
+                         <li class="li-menu-1"><a href="./prestation.html">PRESTATIONS</a></li>
+                         <li class="li-menu-1"><a href="./pages/realisation.html " target="_blank" title="lien realisation">REALISATIONS</a></li>
+                         <li class="li-menu-1"><a href="../pages/contact.html">CONTACT</a></li>
+                     </ul>
+                 </nav>
+             </div>
+         </section>
+         <!-- Création d'un deuxieme menu pour la partie responsive -> tablette grand ecran  -->
+         <section id="container-menu-2">
+             <ul id="liste-menu-2">
+                 <li><a href="../index.html">ACCUEIL</a></li>
+                 <li><a href="./presentation.html">PRESENTATION</a></li>
+                 <li><a href="./prestation.html">PRESTATIONS</a></li>
+                 <li><a href="./pages/realisation.html" target="_blank" title="lien realisation">REALISATION</a></li>
+                 <li><a href="../pages/contact.html">CONTACT</a></li>
+             </ul>
+         </section>
+     </header>
+     <main>
+        <section>
+            <article id="entete">
+                <h1>Réalisations </h1>
+            </article>
         </section>
-        <!-- Création d'un deuxieme menu pour la partie responsive -> tablette grand ecran  -->
-        <section id="container-menu-2">
-            <ul id="liste-menu-2">
-                <li><a href="../index.html">ACCUEIL</a></li>
-                <li><a href="#">PRESENTATION</a></li>
-                <li><a href="#">PRESTATIONS</a></li>
-                <li><a href="./pages/realisation.html" target="_blank" title="lien realisation">REALISATION</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
+        <section>
+            <article>
+                <h2>Nos réalisations</h2>
+                <div class="carrousel">
+                    <div class="rea">
+                      <img src="../assets/images/int-1/interieur-noir-&-blanc-chambre.jpg" alt="">
+                      <img src="../assets/images/int-1/interieur-noir-&-blanc-cuisine.jpg" alt="Canyon 2">
+                      <img src="../assets/images/int-1/interieur-noir-&-blanc-salon.jpg" alt="Canyon 3">
+                      <img src="../assets/images/int-1/interieur-noir-&-blanc-sdb.jpg" alt="Canyon 4">
+                      <img src="../assets/images/int-1/interieur-noir-&-blanc-sam.png" alt="Canyon 4">
+                    </div>
+                </div>
+                <p class="container-description">
+                    Rénovation, agencement et décoration d'une maison dans le théme noir et blanc 
+                </p>
+            </article>
         </section>
-    </header>
-   <main> 
-    <section>
-        <article id="container">
-            <div class="row">
-                <div class="col-lg-1">
+        <section>
+            <article>
+                <div class="carrousel">
+                    <div class="rea">
+                      <img src="../assets/images/int-2/bureau-espace-de-travail-1.jpg" alt="">
+                      <img src="../assets/images/int-2/bureau-espace-de-travail-2.jpeg" alt="Canyon 2">
+                      <img src="../assets/images/int-2/bureau-espace-de-travail-cantine.jpg" alt="Canyon 3">
+                      <img src="../assets/images/int-2/bureau-espace-de-travail.jpg" alt="Canyon 4">
+                      <img src="../assets/images/int-2/bureau-espace-de-travail-accueil.jpeg" alt="Canyon 4">
+                    </div>
                 </div>
-                <div id="entete" class="col-lg-10">
-                    <h1>Nos réalisations</h1>
+                <p class="container-description">
+                    Rénovation, agencement et décoration d'un espace de travail en entreprise, plus la mise en place d'une cantine pour les employer 
+                </p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <div class="carrousel">
+                    <div class="rea">
+                      <img src="../assets/images/int-3/escape-game-accueil.jpg" alt="">
+                      <img src="../assets/images/int-3/escape-game-1.jpg" alt="Canyon 2">
+                      <img src="../assets/images/int-3/escape-game-2.jpeg" alt="Canyon 3">
+                      <img src="../assets/images/int-3/escape-game-3.jpg" alt="Canyon 4">
+                      <img src="../assets/images/int-3/escape-game-4.jpg.crdownload" alt="Canyon 4">
+                    </div>
                 </div>
-                <div class="col-lg-1">
-                </div>
-            </div>
-        </article>
-    </section>
-   </main>
-   <footer id="footer">
-        <p>
-            La Toile <br> 
-            Design Intérieur & Décoration
-        </p>
-        <a href="#"><img class="logo-reseau" id="pint" src="../assets/images/pisansfd.png" alt=""></a>
-        <a href="#"><img class="logo-reseau"id="insta" src="../assets/images/instassfd.png" alt=""></a>
-        <hr>
-        <p id="copyright">
-           Tous droits réservés © Copyright - Design Helena ROLDAN DevWeb2 -
-        </p>
-   </footer>
+                <p class="container-description">
+                    Décoration d'un espace Escape Game ! Notre nouveau projet innovation de ce moment ! 
+                    Décoration et aménagement de l'accueil dans un théme spécial détective, et en bonus quelques salle a théme.
+                </p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <div class="carrousel">
+                    <div class="rea">
+                      <img src="../assets/images/bois.jpg" alt="">
+                      <img src="../assets/images/salongris.jpg" alt="Canyon 2">
+                      <img src="../assets/images/canape-aes.jpg" alt="Canyon 3">
+                      <img src="../assets/images/luxe interieur.jpg" alt="Canyon 4">
+                      <img src="../assets/images/luxe interieur.jpg" alt="Canyon 4">
+                    </div>
+                  </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <div class="carrousel">
+                    <div class="rea">
+                      <img src="../assets/images/bois.jpg" alt="">
+                      <img src="../assets/images/salongris.jpg" alt="Canyon 2">
+                      <img src="../assets/images/canape-aes.jpg" alt="Canyon 3">
+                      <img src="../assets/images/luxe interieur.jpg" alt="Canyon 4">
+                      <img src="../assets/images/luxe interieur.jpg" alt="Canyon 4">
+                    </div>
+                  </div>
+            </article>
+        </section>
+     </main>
 </body>
 </html>

@@ -149,7 +149,7 @@ html, body{
     color: white;
     font-weight: bold;
     border-color: #f3f0f0;
-    margin-left: 10px;
+    margin : 10px 0 25px 10px
   }
   button:active{
     background-color: rgb(198, 195, 195);
