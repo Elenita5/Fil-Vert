@@ -1,0 +1,202 @@
+html, body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+    background-color: #f3f0f0;
+    color: rgb(41, 40, 40);
+  }
+  header{
+    background-color: white;
+    border: 1px solid rgb(220, 213, 213);
+    border-bottom: none;
+    text-align: center;
+  }
+  nav {
+    background-color: #A29992;;
+    overflow: hidden;
+    width: 100%;
+    transform: translateY(-280px);
+  }
+  header #logo{
+    width: 220px;
+  }
+  nav a {
+    color: rgb(50, 47, 47);
+    text-decoration: none;
+    padding: 5px;
+  }
+  footer p{
+    margin: 2px;
+  }
+  @font-face {
+    font-family: Titre;
+    src: url(../font/DancingScript-VariableFont_wght.ttf);
+  }
+  .logo-reseau:hover{
+    opacity: 0.5;
+  }
+  #menu {
+    position: absolute;
+    right:0px;
+    top: 0px;
+    width: 100%;
+  }
+  #hamburger {
+    display: none;
+  }
+  #hamburger-logo {
+    cursor: pointer;
+    background-color: #A29992;
+    width: 465px;
+    display: block;
+    color: rgb(59, 48, 48);
+    text-align: left;
+    padding: 10px;
+  }
+  #container-menu{
+    background-color: #A29992;
+    position: fixed;
+    top: 0px;
+    height: 42px;
+    border-left: none;
+    width: 100%;
+    z-index: 1;
+  }
+  #hamburger-logo, nav {
+      transition: 0.7s;
+  }
+  #hamburger:checked ~ #hamburger-logo, #hamburger:checked ~ nav {
+    transform: translate(0);
+  }
+  #ul, .li-menu-1{
+    list-style: none;
+    padding: 0;
+    width: 50px;
+    letter-spacing: -2px;
+    line-height: 35px;
+  }
+  #container-menu-2{
+    display: none;
+  }
+  #footer{
+    border: 1px solid rgb(221, 210, 196);
+    box-sizing: border-box;
+    font-size: 12px;
+    text-align: center;
+    background-color: #A29992;
+    color: rgb(59, 48, 48);
+  }
+  #pint{
+    width: 20px;
+  }
+  #insta{
+    width: 30px;
+  }
+  #copyright{
+    font-style: italic;
+  }
+  h1{
+    color: rgb(251, 247, 247);
+    text-align: center;
+    letter-spacing: -1px;
+    text-shadow:1px 1px 15px rgb(9, 9, 9);
+    font-family: "Titre";
+    font-size: 35px;
+    margin: 0;
+    line-height: 300px;
+  }
+  #entete{
+    background-image: url(../images/sejour-design-mobilier-luxe-maison.jpg);
+    background-position:center;
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
+  article{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+  }
+  @media screen and (min-width:500px){
+    footer p{
+      margin: 13px
+    }
+    #footer{
+      font-size: 13px;
+    }
+    #logo{
+      width: 206px;
+    }
+    #plan{
+        width: 500px;
+    }
+  }
+  @media screen and (min-width : 800px){
+    header{
+      height: 275px;
+    }
+    footer p{
+      margin: 13px;
+    }
+    nav{
+      display: none;
+    }
+    ul {
+      display: flex;
+      padding: 0;
+      justify-content: space-between;
+      margin: 0;
+    }
+    li{
+      list-style: none;
+      border: 1px solid rgb(221, 210, 196);
+      border-right: none;
+      width: 450px;
+    }
+    li:last-child{
+      border: 1px solid rgb(221, 210, 196);
+    }
+    .menu{
+      display: none;
+    }
+    #footer{
+      font-size: 15px;
+      background-color: #A29992;
+    }
+    #container-menu{
+      display: none;
+    }
+    #container-menu-2 {
+      display:block;
+      width: 100%;
+    }
+    #ul .li-menu-1{
+      display: none;
+    }
+    #liste-menu-2 a{
+      text-decoration: none;
+      display: block;
+      padding: 15px;
+      color: rgb(59, 48, 48);
+    }
+    #liste-menu-2 a:hover{
+      color: white;
+      font-weight: bold;
+      background-color: #A29992;
+    }
+    #entete{
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    }
+    @media (min-width:900px) and (max-width:2000px){
+        article{
+            width: 58%;
+        }
+        #photo{
+            margin-left: 180px;
+            height: 500px;
+            width: 500px;
+        }
+    }
