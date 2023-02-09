@@ -4,26 +4,6 @@ html, body{
   background-color: #f3f0f0;
   color: rgb(41, 40, 40);
 }
-header{
-  background-color: white;
-  border: 1px solid rgb(204, 201, 201);
-  border-bottom: none;
-  text-align: center;
-}
-nav {
-  background-color: #A29992;;
-  overflow: hidden;
-  width: 100%;
-  transform: translateY(-280px);
-}
-header #logo{
-  width: 220px;
-}
-nav a {
-  color: rgb(50, 47, 47);
-  text-decoration: none;
-  padding: 5px;
-}
 h1{
   margin: 0;
   color: rgb(252, 247, 247);
@@ -37,16 +17,9 @@ h1{
 h2{
   color: rgb(109, 99, 78);
 }
-
-footer p{
-  margin: 2px;
-}
 @font-face {
   font-family: Titre;
   src: url(../font/DancingScript-VariableFont_wght.ttf);
-}
-.logo-reseau:hover{
-  opacity: 0.5;
 }
 .container{
   width: 95%;
@@ -55,48 +28,6 @@ footer p{
 }
 .center{
   text-align: center;
-}
-#menu {
-  position: absolute;
-  right:0px;
-  top: 0px;
-  width: 100%;
-}
-#hamburger {
-  display: none;
-}
-#hamburger-logo {
-  cursor: pointer;
-  background-color: #A29992;
-  width: 465px;
-  display: block;
-  color: rgb(59, 48, 48);
-  text-align: left;
-  padding: 10px;
-}
-#container-menu{
-  background-color: #A29992;
-  position: fixed;
-  top: 0px;
-  height: 42px;
-  border-left: none;
-  width: 100%;
-}
-#hamburger-logo, nav {
-    transition: 0.7s;
-}
-#hamburger:checked ~ #hamburger-logo, #hamburger:checked ~ nav {
-  transform: translate(0);
-}
-#ul, .li-menu-1{
-  list-style: none;
-  padding: 0;
-  width: 50px;
-  letter-spacing: -2px;
-  line-height: 35px;
-}
-#container-menu-2{
-  display: none;
 }
 #accueil{
   background-image: url(../images/Bases-de-la-decoration-interieur-2.jpg);
@@ -114,14 +45,6 @@ footer p{
   letter-spacing: 1px;
   text-shadow:1px 3px 3px black;
   margin-left: 60px;
-}
-#footer{
-  border: 1px solid rgb(221, 210, 196);
-  box-sizing: border-box;
-  font-size: 12px;
-  text-align: center;
-  background-color: #A29992;
-  color: rgb(59, 48, 48);
 }
 #banniere{
   background-image: url(../images/ban4.jpg);
@@ -142,15 +65,6 @@ footer p{
   width: 90%;
   text-shadow:1px 3px 3px rgb(252, 249, 249);
 }
-#pint{
-  width: 20px;
-}
-#insta{
-  width: 30px;
-}
-#copyright{
-  font-style: italic;
-}
 #banniere-2{
   width: 100%;
   border: 1px solid rgb(223, 219, 219);
@@ -163,31 +77,6 @@ footer p{
   text-shadow:1px 3px 3px black;
   box-sizing: border-box;
 }
-#contact{
-  border: 1px solid white;
-  width: 160px;
-  padding: 8px;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-#contact, a {
-  text-decoration: none;
-  color: white;
-}
-#contact:hover{
-  background-color: rgb(177, 174, 174);
-}
-@media screen and (min-width:500px){
-  footer p{
-    margin: 13px
-  }
-  #footer{
-    font-size: 13px;
-  }
-  #logo{
-    width: 206px;
-  }
-}
 @media screen and (min-width : 800px){
   h1{
     margin: 0;
@@ -198,61 +87,8 @@ footer p{
     text-shadow:1px 3px 3px black;
     margin-left: 90px;
   }
-  header{
-    height: 275px;
-  }
-  footer p{
-    margin: 13px;
-  }
-  nav{
-    display: none;
-  }
-  ul {
-    display: flex;
-    padding: 0;
-    justify-content: space-between;
-    margin: 0;
-  }
-  li{
-    list-style: none;
-    border: 1px solid rgb(221, 210, 196);
-    border-right: none;
-    width: 450px;
-  }
-  li:last-child{
-    border: 1px solid rgb(221, 210, 196);
-  }
-  .menu{
-    display: none;
-  }
   .container{
     width: 90%;
-  }
-  #footer{
-    font-size: 15px;
-    background-color: #A29992;;
-  }
-  #container-menu{
-    display: none;
-  }
-
-  #container-menu-2 {
-    display:block;
-    width: 100%;
-  }
-  #ul .li-menu-1{
-    display: none;
-  }
-  #liste-menu-2 a{
-    text-decoration: none;
-    display: block;
-    padding: 15px;
-    color: rgb(59, 48, 48);
-  }
-  #liste-menu-2 a:hover{
-    color: white;
-    font-weight: bold;
-    background-color: #A29992;
   }
   #accueil{
     background-image: url(../images/Bases-de-la-decoration-interieur-2.jpg);
