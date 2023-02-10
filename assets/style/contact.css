@@ -1,307 +1,166 @@
 html, body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0%;
-    background-color: #f3f0f0;
-    color: rgb(41, 40, 40);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0%;
+  background-color: #f3f0f0;
+  color: rgb(41, 40, 40);
+}
+header #logo{
+  width: 220px;
+}
+form{
+  width: 100%;
+  border: 1px solid rgb(220, 215, 215);
+  box-sizing: border-box;
+  padding: 10px;
+}
+form input, textarea{
+  display: block;
+  width: 280px;
+  height: 40px;
+  margin: 10px 0 10px 10px;
+  border: 1px solid rgb(150, 148, 148);
+  border-radius: 5px;
+}
+span{
+  color: black;
+}
+textarea{
+  height: 90px;
+}
+
+h2{
+text-align: center;
+}
+h1{
+color: white;
+font-family: "Titre";
+font-size: 25px;
+}
+button{
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 5px;
+  background-color: rgb(132, 130, 130);
+  color: white;
+  font-weight: bold;
+  border-color: #f3f0f0;
+  margin : 10px 0 25px 10px
+}
+button:active{
+  background-color: rgb(198, 195, 195);
+  color: black;
+}
+@font-face {
+  font-family: Titre;
+  src: url(../font/DancingScript-VariableFont_wght.ttf);
+}
+.container-info{
+  background-color: rgb(37, 35, 35);
+  padding: 45px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(193, 186, 186);
+}
+.container-info p{
+  color: white;
+  margin-left: 45px;
+}
+.icone{
+  float: left;
+  width: 30px;
+}
+.label{
+  margin-left: 10px;
+}
+#vase{
+  width: 100%;
+  box-sizing: border-box;
+}
+#slogan{
+  border: 1px solid white;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #A29992;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width:500px){
+  h1{
+    font-size: 32px;
   }
-  header{
-    background-color: white;
-    border: 1px solid rgb(220, 213, 213);
-    border-bottom: none;
+  h2{
     text-align: center;
-  }
-  nav {
-    background-color: #A29992;;
-    overflow: hidden;
     width: 100%;
-    transform: translateY(-280px);
-  }
-  header #logo{
-    width: 220px;
-  }
-  nav a {
-    color: rgb(50, 47, 47);
-    text-decoration: none;
-    padding: 5px;
-  }
-  footer p{
-    margin: 2px;
-  }
-  @font-face {
-    font-family: Titre;
-    src: url(../font/DancingScript-VariableFont_wght.ttf);
-  }
-  .logo-reseau:hover{
-    opacity: 0.5;
-  }
-  #menu {
-    position: absolute;
-    right:0px;
-    top: 0px;
-    width: 100%;
-  }
-  #hamburger {
-    display: none;
-  }
-  #hamburger-logo {
-    cursor: pointer;
-    background-color: #A29992;
-    width: 465px;
-    display: block;
-    color: rgb(59, 48, 48);
-    text-align: left;
-    padding: 10px;
-  }
-  #container-menu{
-    background-color: #A29992;
-    position: fixed;
-    top: 0px;
-    height: 42px;
-    border-left: none;
-    width: 100%;
-  }
-  #hamburger-logo, nav {
-      transition: 0.7s;
-  }
-  #hamburger:checked ~ #hamburger-logo, #hamburger:checked ~ nav {
-    transform: translate(0);
-  }
-  #ul, .li-menu-1{
-    list-style: none;
-    padding: 0;
-    width: 50px;
-    letter-spacing: -2px;
-    line-height: 35px;
-  }
-  #container-menu-2{
-    display: none;
-  }
-  #footer{
-    border: 1px solid rgb(221, 210, 196);
-    box-sizing: border-box;
-    font-size: 12px;
-    text-align: center;
-    background-color: #A29992;
-    color: rgb(59, 48, 48);
-  }
-  #pint{
-    width: 20px;
-  }
-  #insta{
-    width: 30px;
-  }
-  #copyright{
-    font-style: italic;
-  }
-  #vase{
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .container-info{
-    background-color: rgb(37, 35, 35);
-    padding: 45px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid rgb(193, 186, 186);
-  }
-  .container-info p{
-    color: white;
-    margin-left: 45px;
-  }
-  .icone{
-    float: left;
-    width: 30px;
-  }
-  form{
-    width: 100%;
-    border: 1px solid rgb(220, 215, 215);
-    box-sizing: border-box;
-    padding: 10px;
   }
   form input, textarea{
-    display: block;
-    width: 280px;
-    height: 40px;
-    margin: 10px 0 10px 10px;
-    border: 1px solid rgb(150, 148, 148);
+    width: 450px;
+    font-size: 16px;
+  }
+  button:hover{
+    background-color: rgb(186, 181, 181);
+    color: rgb(42, 40, 40);
+  }
+  button:active{
+    background-color: black;
+    color: white;
+  }
+  .container-info{
+    height: 320px;
+    font-size: 18px;
+  }
+  #logo{
+    width: 206px;
+  }
+}
+@media screen and (min-width : 800px){
+  h1{
+    font-size: 50px;
+  }
+  h2{
+    text-align: center;
+    width: 100%;
+  }
+  form{
+    width: 45%;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: rgb(245, 242, 242);
     border-radius: 5px;
+  }
+  form input, textarea{
+    width: 300px;
+    margin: 10px 0 10px 10px;
   }
   .label{
     margin-left: 10px;
   }
-  textarea{
-    height: 90px;
+  .container-info p{
+    margin-bottom: 65px;
   }
-
- h2{
-  text-align: center;
- }
- h1{
-  color: white;
-  font-family: "Titre";
-  font-size: 25px;
- }
-  button{
-    padding: 10px;
-    font-size: 13px;
+  .container-info{
+    border: none;
+    height: 550px;
+    width: 60%;
+  }
+  #flex{
+    display: flex;
+  }
+  #vase{
+    height: 550px;
+    width: 60%;
+  }
+}  
+@media (min-width:900px) and (max-width:2000px){
+  form{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
     border-radius: 5px;
-    background-color: rgb(132, 130, 130);
-    color: white;
-    font-weight: bold;
-    border-color: #f3f0f0;
-    margin : 10px 0 25px 10px
   }
-  button:active{
-    background-color: rgb(198, 195, 195);
-    color: black;
+  form input, textarea{
+    width: 80%;
   }
-  #slogan{
-    border: 1px solid white;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 8px;
-    border-radius: 5px;
-    background-color: #A29992;
-    color: white;
-    text-align: center;
-  }
-  span{
-    color: black;
-  }
-  @media screen and (min-width:500px){
-    footer p{
-      margin: 13px
-    }
-    #footer{
-      font-size: 13px;
-    }
-    #logo{
-      width: 206px;
-    }
-    .container-info{
-     height: 320px;
-     font-size: 18px;
-    }
-    h1{
-      font-size: 32px;
-    }
-    h2{
-      text-align: center;
-      width: 100%;
-    }
-    form input, textarea{
-      width: 450px;
-      font-size: 16px;
-    }
-    button:hover{
-      background-color: rgb(186, 181, 181);
-      color: rgb(42, 40, 40);
-    }
-    button:active{
-      background-color: black;
-      color: white;
-    }
-  }
-  @media screen and (min-width : 800px){
-    header{
-      height: 275px;
-    }
-    footer p{
-      margin: 13px;
-    }
-    nav{
-      display: none;
-    }
-    ul {
-      display: flex;
-      padding: 0;
-      justify-content: space-between;
-      margin: 0;
-    }
-    li{
-      list-style: none;
-      border: 1px solid rgb(221, 210, 196);
-      border-right: none;
-      width: 450px;
-    }
-    li:last-child{
-      border: 1px solid rgb(221, 210, 196);
-    }
-    .menu{
-      display: none;
-    }
-    #footer{
-      font-size: 15px;
-      background-color: #A29992;
-    }
-    #container-menu{
-      display: none;
-    }
-    #container-menu-2 {
-      display:block;
-      width: 100%;
-    }
-    #ul .li-menu-1{
-      display: none;
-    }
-    #liste-menu-2 a{
-      text-decoration: none;
-      display: block;
-      padding: 15px;
-      color: rgb(59, 48, 48);
-    }
-    #liste-menu-2 a:hover{
-      color: white;
-      font-weight: bold;
-      background-color: #A29992;
-    }
-    #flex{
-      display: flex;
-    }
-    #vase{
-      height: 550px;
-      width: 60%;
-    }
-    .container-info{
-      border: none;
-      height: 550px;
-      width: 60%;
-    }
-    h1{
-      font-size: 50px;
-    }
-    .container-info p{
-      margin-bottom: 65px;
-    }
-    h2{
-      text-align: center;
-      width: 100%;
-    }
-    form{
-      width: 45%;
-      margin: auto;
-      margin-bottom: 50px;
-      background-color: rgb(245, 242, 242);
-      border-radius: 5px;
-    }
-    form input, textarea{
-      width: 300px;
-      margin: 10px 0 10px 10px;
-    }
-    .label{
-      margin-left: 10px;
-    }
-    }
-  
-  @media (min-width:900px) and (max-width:2000px){
-    form{
-      width: 40%;
-      margin: auto;
-      margin-bottom: 50px;
-      border-radius: 5px;
-    }
-    form input, textarea{
-      width: 80%;
-    }
-
-  }
+}
